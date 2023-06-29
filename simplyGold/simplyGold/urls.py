@@ -17,5 +17,12 @@ from django.contrib import admin
 from django.urls import path,include 
 
 urlpatterns = [
+    # for admin page
     path('admin/', admin.site.urls),
+    # for silver
+    path('silver/',include("silverPage.urls")),
+    # for gold
+    path('gold/',include("goldPage.urls")),
+    # for diamond
+    path('diamond/',include("diamondPage.urls"))
 ]
