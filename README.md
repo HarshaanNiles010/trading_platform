@@ -1,7 +1,7 @@
 # trading_platform
 Below are the instructions on how to install and run the project on a local server
 1) install conda for virtual environment.
-  follow the guide on the official documentation page [[conda installation]](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+  follow the guide on the official documentation page [conda installation](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 2) verify the installation by running
   ``` 
   conda info
