@@ -18,6 +18,10 @@ Below are the instructions on how to install and run the project on a local serv
   ```
   source activate Name_of_the_environment
   ```
+  and since we are using conda we can also use 
+  ```
+  conda activate Name_of_the_ennvironment
+  ```
 5) git clone the project
   ```
   git clone https://github.com/HarshaanNiles010/trading_platform.git
@@ -30,4 +34,9 @@ When done with the project please use the following command to terminate the env
   ```
   source deactivate
   ```
+Similarly here we can also use
+  ```
+  conda deactivate
+  ```
+To deactivate the current environment
 # Your Environment is ready for use
