@@ -40,3 +40,15 @@ Similarly here we can also use
   ```
 To deactivate the current environment
 # Your Environment is ready for use
+# Running the Django app
+1) Go to the directory containing **manage.py**
+2) run the following command
+  ```
+  python3 manage.py runserver
+  ```
+  This will start a local server and can be visited to have a look at the site in progress
+
+3) To close the server just use Ctrl + c
+
+Side Note: During development enable the virtual environment and then when work on the current project is done close the virtual environment
+
