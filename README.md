@@ -12,8 +12,9 @@ Below are the instructions on how to install and run the project on a local serv
   ```
 3) Create a virtual environment
   ```
-  conda create --name Name_of_the_environment python=3.xx
+  conda create --name Name_of_the_environment python=3.9
   ```
+  Using python 3.9 because aws has support for python 3.9 but not for v3.11
 4) Activate the environment 
   ```
   source activate Name_of_the_environment
@@ -30,6 +31,7 @@ Below are the instructions on how to install and run the project on a local serv
   ```
   pip3 install -r requirements.txt
   ```
+  add the required packages to requirements.txt and then run the command given above again to install them in one go
 When done with the project please use the following command to terminate the environment
   ```
   source deactivate
