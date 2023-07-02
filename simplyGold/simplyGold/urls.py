@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.urls import path,include 
 
 urlpatterns = [
+    # for main page
+    path('',include("mainPage.urls")),
     # for admin page
     path('admin/', admin.site.urls),
     # for silver

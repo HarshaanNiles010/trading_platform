@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'silverPage',
     'goldPage',
-    'diamondPage'
+    'diamondPage',
+    'mainPage'
 ]
 
 MIDDLEWARE = [

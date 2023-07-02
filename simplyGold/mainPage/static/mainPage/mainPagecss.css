@@ -1,0 +1,15 @@
+body{
+    background-color: #FFE6C7;
+
+}
+.site-title{
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-bottom: auto;
+}
+.top-nav-bar{
+    font-family: 'Libre Franklin', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
