@@ -15,6 +15,7 @@ Below are the instructions on how to install and run the project on a local serv
   conda create --name Name_of_the_environment python=3.9
   ```
   Using python 3.9 because aws has support for python 3.9 but not for v3.11
+
 4) Activate the environment 
   ```
   source activate Name_of_the_environment
