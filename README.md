@@ -55,3 +55,9 @@ To deactivate the current environment
 
 Side Note: During development enable the virtual environment and then when work on the current project is done close the virtual environment
 
+# Structure of Django app
+1) The main control flow for the django app to my current level of understanding is the following:
+  1) The views **views.py** in any app folder is the one which handles what is shown on the screen. It is where one can collect all the data from the user
+  2) The urls **urls.py** in any app folder is where you can define your route and which view file can be used to get the neccessary data displayed
+  3) The urls **urls.py** in the main app is where you have to include your path so that it can be used to navigate to the specific page of your choice
+  4) The settings **settings.py** in the main app is where you have to declare your apps for them to be called upon later 
