@@ -2,14 +2,33 @@ body{
     background-color: #FFE6C7;
 
 }
+
 .site-title{
     text-align: center;
     font-family: 'Libre Franklin', sans-serif;
     margin-bottom: auto;
 }
+
 .top-nav-bar{
     font-family: 'Libre Franklin', sans-serif;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+
+    overflow: hidden;
+    text-align: center;
+}
+
+.top-nav-bar a{
+    color: #191825;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.top-nav-bar a:hover {
+    background-color: #ddd;
+}
+
+.top-nav-bar a.active {
+    background-color: #FFB84C;
+    color: white;
 }
