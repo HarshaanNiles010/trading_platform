@@ -13,16 +13,6 @@ body{
     padding: 20px;
 }
 
-.site-title a{
-    font-family: 'Libre Franklin', sans-serif;
-    color: #FFD93D;
-    padding: 20px 20px;
-    overflow: hidden;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-
 
 .top-nav-bar {
     font-family: 'Libre Franklin', sans-serif;
@@ -31,6 +21,7 @@ body{
     overflow: hidden;
     font-size: 20px;
     text-align: center;
+    border-radius: 25px;
 }
 
 .top-nav-bar a{
@@ -40,8 +31,27 @@ body{
     text-decoration: none;
     font-size: 20px;
     text-align: center;
-    border-radius: 25px;
     padding: 20px;
+}
+
+.top-nav-bar a.Home:hover{
+    background-color: #FFF;
+    color: #191825;
+}
+
+.top-nav-bar a.silver:hover{
+    background-color: #FFF;
+    color: #191825;
+}
+
+.top-nav-bar a.gold:hover{
+    background-color: #FFF;
+    color:#191825
+}
+
+.top-nav-bar a.diamond:hover{
+    background-color: #FFF;
+    color:#191825
 }
 /*
 .top-nav-bar a:hover {
