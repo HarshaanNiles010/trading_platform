@@ -1,3 +1,13 @@
 body{
-    background-color: black;
+    background-color: #F6F1F1;
+}
+
+.site-title{
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-bottom: auto;
+    color: #e9e3e3;
+    background-color: #191825;
+    border-radius: 25px;
+    padding: 20px;
 }

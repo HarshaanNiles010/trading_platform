@@ -37,21 +37,25 @@ body{
 .top-nav-bar a.Home:hover{
     background-color: #FFF;
     color: #191825;
+    border-radius: 20px;
 }
 
 .top-nav-bar a.silver:hover{
     background-color: #FFF;
     color: #191825;
+    border-radius: 20px;
 }
 
 .top-nav-bar a.gold:hover{
     background-color: #FFF;
-    color:#191825
+    color:#191825;
+    border-radius: 20px;
 }
 
 .top-nav-bar a.diamond:hover{
     background-color: #FFF;
-    color:#191825
+    color:#191825;
+    border-radius: 20px;
 }
 /*
 .top-nav-bar a:hover {
