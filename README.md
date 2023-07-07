@@ -61,3 +61,10 @@ Side Note: During development enable the virtual environment and then when work 
   2) The urls **urls.py** in any app folder is where you can define your route and which view file can be used to get the neccessary data displayed
   3) The urls **urls.py** in the main app is where you have to include your path so that it can be used to navigate to the specific page of your choice
   4) The settings **settings.py** in the main app is where you have to declare your apps for them to be called upon later 
+
+# Implementing Real time charts
+1) To implement Real Time charts, below is a list of packages to be installed to use it successfully
+  ```
+  pip3 install 'channels[daphne]'
+  ```
+2) Then put the name **daphne** in **settings.py** under **INSTALLED_APPS**
