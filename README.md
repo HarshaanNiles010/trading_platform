@@ -65,6 +65,6 @@ Side Note: During development enable the virtual environment and then when work 
 # Implementing Real time charts
 1) To implement Real Time charts, below is a list of packages to be installed to use it successfully
   ```
-  pip3 install 'channels[daphne]'
+  pip3 install -U 'channels[daphne]'
   ```
 2) Then put the name **daphne** in **settings.py** under **INSTALLED_APPS**
