@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'silverPage',
     'goldPage',
     'diamondPage',
-    'mainPage'
+    'mainPage',
+    "daphne"
 ]
 
 MIDDLEWARE = [
@@ -73,6 +74,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'simplyGold.wsgi.application'
 #ASGI_APPLICATION = 'simplyGold.asgi.application'
+ASGI_APPLICATION = "simplyGold.asgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
