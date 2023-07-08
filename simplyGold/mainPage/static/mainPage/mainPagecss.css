@@ -63,6 +63,30 @@ body{
     color:#191825;
     border-radius: 20px;
 }
+
+.left-00-img img{
+    height:50%;
+    width: 25%;
+    border-radius: 20px;
+}
+
+.left-01-img img{
+    height:50%;
+    width: 25%;
+    border-radius: 20px;
+}
+
+.left-02-img img{
+    height:50%;
+    width: 25%;
+    border-radius: 20px;
+}
+
+.left-03-img img{
+    height:50%;
+    width: 25%;
+    border-radius: 20px;
+}
 /*
 .top-nav-bar a:hover {
     background-color: #ddd;
