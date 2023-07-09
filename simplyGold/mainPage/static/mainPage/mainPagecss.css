@@ -68,23 +68,46 @@ body{
 
 .grid-container{
     display:grid;
-
 }
+
+.grid-item-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
 .grid-item-1 img{
+    margin-top: 5px;
+    margin-bottom: 5px;
     height: auto;
     max-width: 50%;
+    border-radius: 15px;
+}
+
+.grid-item-2{
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 .grid-item-2 img{
+    margin-top: 5px;
+    margin-bottom: 5px;
     height: auto;
-    width: 25%;
+    width: 50%;
+    border-radius: 15px;
 }
+
 .grid-item-3 img{
+    margin-top: 5px;
+    margin-bottom: 5px;
     height: auto;
-    width: 1000px;
+    width: 50%;
+    border-radius: 15px;
 }
 .grid-item-4 img{
-    height: 50%;
-    width: 25%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: auto;
+    width: 50%;
+    border-radius: 15px;
 }
 /*.grid-item-1 img{
     height:50%;
