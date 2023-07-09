@@ -77,12 +77,17 @@ body{
 }
 
 .left-02-img img{
+    position: absolute;
+    height: auto;
+    right: 0%;
     height:50%;
     width: 25%;
     border-radius: 20px;
 }
 
 .left-03-img img{
+    position: absolute;
+    right:0%;
     height:50%;
     width: 25%;
     border-radius: 20px;
