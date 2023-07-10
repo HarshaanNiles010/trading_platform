@@ -2,6 +2,7 @@
 
 body{
     background-color: #F9F3EC;
+    font-family:'Nunito', sans-serif;
 }
 
 .site-title{
@@ -21,13 +22,50 @@ body{
     position: absolute;
     right: 2%;
 }
+.random-text{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: auto;
+}
+.random-text-1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+}
+.random-text-1 p{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 25px;
+}
+
+.diamond-image-1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.diamond-image-2{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.diamond-image-1 img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+}
+.diamond-image-2 img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+}
 .container{
 	max-width: 1170px;
 	margin:auto;
 }
 .row{
 	display: flex;
-	flex-wrap: wrap;
 }
 ul{
 	list-style: none;
