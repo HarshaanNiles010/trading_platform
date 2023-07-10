@@ -64,7 +64,11 @@ body{
     color:#191825;
     border-radius: 20px;
 }
-
+.top-nav-bar a.login_page:hover{
+    background-color: #FFF;
+    color:#191825;
+    border-radius: 20px;
+}
 .grid-container{
     display:grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));

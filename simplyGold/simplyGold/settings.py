@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'silverPage',
     'goldPage',
     'diamondPage',
-    'mainPage'
+    'mainPage',
+    'users'
 ]
 
 MIDDLEWARE = [

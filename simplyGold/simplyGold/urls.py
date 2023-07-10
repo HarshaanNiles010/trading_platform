@@ -26,5 +26,8 @@ urlpatterns = [
     # for gold
     path('gold/',include("goldPage.urls")),
     # for diamond
-    path('diamond/',include("diamondPage.urls"))
+    path('diamond/',include("diamondPage.urls")),
+    # for new users
+    path('users/',include("users.urls")),
+    path('users/',include('django.contrib.auth.urls'))
 ]
