@@ -29,5 +29,6 @@ urlpatterns = [
     path('diamond/',include("diamondPage.urls")),
     # for new users
     path('users/',include("users.urls")),
-    path('users/',include('django.contrib.auth.urls'))
+    path('users/',include('django.contrib.auth.urls')),
+    path('payment/',include("payment.urls"))
 ]
