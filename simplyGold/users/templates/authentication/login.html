@@ -31,9 +31,15 @@
                 <label for="exampleInputPassword1" class="form-label">Password</label>
                 <input type="password" class="form-control" name="password">
             </div>	
-			<input type="submit" value="Submit" class="btn btn-secondary">
+			<input type="submit" value="login" class="btn btn-secondary">
             </div>
         </form>
     </div>
+        <h1>My Google OAuth Project </h1>
+        {% if user.is_authenticated %}
+          <p>Welcome, You are logged in as {{ user.username }}</p>
+        {% else %}
+          <a href="{% provider_login_url 'google' %}">Login With Google</a>
+        {% endif %}
     </body>
 </html>
